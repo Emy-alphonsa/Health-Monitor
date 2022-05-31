@@ -8,4 +8,6 @@ API calls are used to start and stop streaming the values.
 
 Websockets are used to continuously pass values from backend to frontend.
 
+Junit test cases and BDD scenarios for backend is also done with 100% code coverage.
+
 Also containerized frontend and backend separately using docker. 
