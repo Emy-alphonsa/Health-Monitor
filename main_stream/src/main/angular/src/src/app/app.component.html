@@ -1,0 +1,26 @@
+<body style="background-color:black" class="body">
+  <div id="main-content" class="container">
+        <div class="card">
+           <table class = "table table-striped" style="width: auto;"  >
+                <thead>
+                   <tr>
+                      <th style="color: white; text-align: center;" ><font size=5>Temperature</font></th>
+                      <th style="color: white; text-align: center; " ><font size=5>BP</font></th>
+                   </tr>
+                </thead>
+                <tr>
+                  <th style="color: white; text-align: center; "><font size=8>
+                      {{models.temperature}}
+                  </font></th>
+                  <th style="color: white; text-align: center; "><font size=8>
+                      {{models.bp}}
+                    </font></th>
+                </tr>
+             </table> 
+             <button (click)="start()" [disabled]="startFlag" class="btn btn-start" type="button"  style="color: rgb(50, 205, 109);" ><font size=4>Start Streaming</font></button>
+             <button (click)="stop()" [disabled]="stopFlag" class="btn btn-stop" type="button" style="color: tomato;"><font size=4>Stop Streaming</font></button>
+        </div>
+    </div>
+</body>
+<router-outlet></router-outlet>
+ 

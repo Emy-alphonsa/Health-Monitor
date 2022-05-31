@@ -1,0 +1,46 @@
+.btn-start{
+    margin-left:350px;
+    margin-right:50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color:black;
+    padding: 14px 24px;
+    border-color:rgb(50, 205, 109) ;
+}
+.btn-start:hover{
+    background-color:rgb(28, 168, 15);
+}
+.btn-stop{
+    margin-left:70px;
+    margin-right:50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color:black;
+    border-color:tomato;
+    padding: 14px 24px;
+}
+.btn-stop:hover{
+    background-color:rgb(211, 41, 41);
+}
+.table-striped{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 200px 100px;
+}
+.card{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background: #0f2027; 
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    background: linear-gradient(to right, #0f2027, #1e93b9, #1c7da7);
+    
+}
+.body{
+    background: #000000; 
+}

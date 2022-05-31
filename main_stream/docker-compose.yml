@@ -1,0 +1,14 @@
+version: '3'
+volumes:
+  health_monitor:
+services:
+  web-frontend:
+    image: emyalphonsa/mainstream:angular-tag
+    ports:
+      - "4200:80"
+    volumes:
+      - health_monitor:/usr/share/nginx/html:ro
+  web-backend:
+    image: emyalphonsa/mainstream:springboot-tag
+    ports:
+      - "8080:8080"
